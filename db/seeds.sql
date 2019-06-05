@@ -1,0 +1,1 @@
+INSERT INTO tacos (taco_name) VALUES ('chicken taco');
