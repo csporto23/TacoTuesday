@@ -5,9 +5,9 @@ require("dotenv").config();
 const sqlUser = keys.mysql.user
 const sqlPassword = keys.mysql.password
 
-// if (process.env.JAWSDB_URL) {
-//   connection = mysql.createConnection(process.env.JAWSDB_URL);
-// } else {
+if (process.env.JAWSDB_URL) {
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
   const connection = mysql.createConnection({
     host: 'localhost',
     port: 3306,
@@ -16,7 +16,7 @@ const sqlPassword = keys.mysql.password
     database: 'tacos_db'
 
 });
-// };
+};
 
 
 connection.connect(function(err) {
