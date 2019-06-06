@@ -1,5 +1,6 @@
 const mysql = require('mysql');
-const keys = require("./keys.js");
+const keys = require("../keys.js");
+require("dotenv").config();
 
 const sqlUser = keys.mysql.user
 const sqlPassword = keys.mysql.password
