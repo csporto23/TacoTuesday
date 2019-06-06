@@ -1,6 +1,30 @@
 body {
     text-align: center;
-    background-image: url('/public/assets/images/taco-tuesday.jpg')
+    background-image: url("../images/taco-tuesday.jpg");
+    background-size: cover;
 }
 
+h1{
+    color: brown;
+}
+
+h2{
+    color: darkslategray;
+}
+
+#vegetarian{
+    margin-top: 20px;
+}
+
+#ta{
+    margin-bottom: 10px;
+}
+
+#shell{
+    margin-top: 10px;
+}
+
+#flour{
+    margin-top: 10px;
+}
   
