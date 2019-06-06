@@ -1,4 +1,5 @@
 const mysql = require('mysql');
+const keys = require("./keys.js");
 
 const sqlUser = keys.mysql.user
 const sqlPassword = keys.mysql.password
@@ -7,9 +8,9 @@ const sqlPassword = keys.mysql.password
 const connection = mysql.createConnection({
     host: 'localhost',
     port: 3306,
-    user: sqlUser,
-    password: sqlPassword,
-    database: ''
+    user: 'root',
+    password: 'Cs343233!',
+    database: 'tacos_db'
 
 });
 

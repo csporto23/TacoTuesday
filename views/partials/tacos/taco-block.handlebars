@@ -1,0 +1,9 @@
+<li>
+	{{name}}
+
+	<button class="change-pickedUp" data-id="{{id}}" data-newpickedUp="{{pickedUp}}">
+		{{#if pickedUp}}That one has been taken{{else}}Quick, get some before they disappear!{{/if}}
+	</button>
+
+	<button class="delete-taco" data-id="{{this.id}}">DELETE!</button>
+</li>
