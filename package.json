@@ -19,7 +19,7 @@
   "homepage": "https://github.com/csporto23/TacoTuesday#readme",
   "dependencies": {
     "dotenv": "^8.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^3.1.0",
     "handlebars": "^4.1.2",
     "inquirer": "^6.3.1",
